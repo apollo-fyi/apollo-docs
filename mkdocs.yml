@@ -5,6 +5,19 @@ theme:
   logo: assets/logo.png
   features:
     - navigation.sections
+  palette:
+    - scheme: default
+      primary: light blue
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
