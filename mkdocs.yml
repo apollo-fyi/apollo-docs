@@ -1,0 +1,21 @@
+site_name: Apollo Documentation
+site_url: https://docs.apollo.fyi
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.sections
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+nav:
+  - Home: 'index.md'
+  - FAQ: 'faq.md'
+  - Commands: 'commands.md'
+  - Guides:
+    - Creating events: 'creating_events.md'
+    - Deleting events: 'deleting_events.md'
