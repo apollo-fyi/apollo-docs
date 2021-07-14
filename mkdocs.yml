@@ -3,6 +3,7 @@ site_url: https://docs.apollo.fyi
 theme:
   name: material
   logo: assets/logo.png
+  favicon: assets/favicon.ico
   features:
     - navigation.sections
   palette:
