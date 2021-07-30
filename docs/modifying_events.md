@@ -30,6 +30,7 @@ The following event attributes can be modified on an event:
 - Restrictions (requires [Premium](https://apollo.fyi/premium))
 - Color (requires [Premium](https://apollo.fyi/premium))
 - Image (requires [Premium](https://apollo.fyi/premium))
+- [Attendee role](attendee_roles.md) (requires [Premium](https://apollo.fyi/premium))
 
 !!! warning
     Sign up options can not be added or removed from an event at this time.
