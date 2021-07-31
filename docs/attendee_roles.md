@@ -52,6 +52,20 @@ When the event is deleted, the role will be removed from all attendees.
     Apollo's highest role in the role hierarchy list, otherwise Apollo will not
     be able to add the role to attendees.
 
+### Multiple events
+
+When multiple events share the same persistent attendee role, the role is only
+removed from an attendee when they are not signed up for any events with the
+persistent attendee role.
+
+!!! example
+    John signs up for two events, both of which have the same persistent
+    attendee role.
+
+    John's attendee role will be removed when his responses are removed from
+    both events. Response removal can occur by John manually removing his
+    signup, but it will also occur if the event is deleted.
+
 ## Using attendee roles
 
 An attendee role can be configured during event creation on the advanced options
