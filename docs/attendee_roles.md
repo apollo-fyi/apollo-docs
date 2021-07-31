@@ -12,7 +12,7 @@ Once an attendee role is setup, attendees will be given the role when they sign
 up for the event. The role will be removed from attendees when they remove their
 signup, or the event is deleted.
 
-!!! warning
+!!! warning "Permission check"
     Apollo must have the `Manage Roles` permission in order to assign roles to
     attendees.
 
