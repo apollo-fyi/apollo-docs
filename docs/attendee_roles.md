@@ -68,6 +68,13 @@ persistent attendee role.
 
 ## Using attendee roles
 
+!!! info inline end
+    Attendee roles are granted to users who sign up for signup options that have
+    **reminders enabled**.
+
+    By default, only the **Accepted** option has reminders enabled, but this can
+    be configured on a per event basis.
+
 An attendee role can be configured during event creation on the advanced options
 prompt (the last prompt when creating an event).
 
