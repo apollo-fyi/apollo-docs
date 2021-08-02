@@ -47,6 +47,10 @@ role to attendees as they update their responses.
 
 When the event is deleted, the role will be removed from all attendees.
 
+!!! note
+    Apollo will not allow users to assign a persistent attendee role if they
+    don't personally have permission to `Manage Roles` on the server.
+
 !!! warning
     When using a persistent attendee role, the role must be **below**
     Apollo's highest role in the role hierarchy list, otherwise Apollo will not
