@@ -32,7 +32,7 @@ modified to no longer have a temporary attendee role.
 ### Enable by default
 
 If desired, Apollo can be configured to create a temporary attendee role for all
-new events by default with `!server temp_role on`.
+new events by default with `!server temp_roles on`.
 
 This command requires the `Manage Server` permission to invoke.
 
