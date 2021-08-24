@@ -58,6 +58,7 @@ channel. This limit is increased to **25** if there is an active Premium members
 ## Purge non event messages
 
 By default non event messages (that aren't pinned) are purged from an event
-channel when a new event is posted in the channel.
+channel when a new event is posted or deleted. The goal of this feature is to
+maintain an event channel as a place for events only, free of distraction.
 
 This can be disabled with the `!server purge off` command.
