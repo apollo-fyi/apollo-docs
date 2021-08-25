@@ -6,7 +6,7 @@ creating an event or the event details have changed.
 Events can be modified in two ways:
 
 - With the `!edit` command
-- By clicking the :pencil: emoji on an event
+- By clicking the `Edit` button on an event
 
 !!! info
     To modify a recurring series without affecting an already posted event, the
