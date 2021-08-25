@@ -25,6 +25,7 @@ Information on how to use a command can also be found via the `!help` command.
 | `!server localize_time`     | Configure if users see event times in their local time zone |
 | `!server purge`             | Configure if messages are purged from event channels |
 | `!server reminder_interval <interval>` | Configure when event reminders are delivered |
+| `!server event_threads`     | Configure if events are posted with a thread |
 | `!server role event`        | Configure which role is allowed to create events |
 | `!server role delete`       | Configure which role is allowed to delete events |
 | `!server role channel`      | Configure which role is allowed to create event channels |
