@@ -42,4 +42,5 @@ nav:
     - Deleting events: 'deleting_events.md'
     - Modifying events: 'modifying_events.md'
     - Event channels: 'event_channels.md'
+    - Reminders: 'reminders.md'
     - Attendee roles: 'attendee_roles.md'
