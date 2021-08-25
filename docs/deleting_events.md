@@ -3,17 +3,17 @@
 Events can be deleted in two ways
 
 - By deleting the event message (requires the `Manage Messages` permission)
-- By clicking the :wastebasket: emoji on the event message
+- By clicking the `Delete` button on the event message
 
-Deleting the event message will instantly delete the event. If the :wastebasket:
-emoji is clicked, a confirmation prompt will be sent via a direct message.
+Deleting the event message will instantly delete the event. If the `Edit`
+button is clicked, a confirmation prompt will be sent via a direct message.
 
 ## Recurring events
 
 If an event message for a recurring event is deleted, the underlying series is
 not deleted.
 
-When the :wastebasket: emoji is selected for a recurring event, a prompt will
+When the `Delete` button is selected for a recurring event, a prompt will
 ask if you'd like to delete the current event only, or if you'd like to delete
 the current event and prevent all future occurrences.
 
@@ -29,7 +29,7 @@ series.
 ## Controlling access
 
 By default, users can only delete their own events. If a user clicks on the
-:wastebasket: emoji for an event they don't own, they will receive a direct
+`Delete` button for an event they don't own, they will receive a direct
 message indicating that they are missing permissions.
 
 Users with the `Manage Server` permission can delete any event.
