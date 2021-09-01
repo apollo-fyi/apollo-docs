@@ -26,6 +26,7 @@ Information on how to use a command can also be found via the `!help` command.
 | `!server purge`             | Configure if messages are purged from event channels |
 | `!server reminder_interval <interval>` | Configure when event reminders are delivered |
 | `!server event_threads`     | Configure if events are posted with a thread |
+| `!server thread_reminders`  | [Configure if event reminders are sent in a thread](./reminders.md#channel-reminders) |
 | `!server role event`        | Configure which role is allowed to create events |
 | `!server role delete`       | Configure which role is allowed to delete events |
 | `!server role channel`      | Configure which role is allowed to create event channels |
