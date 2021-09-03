@@ -8,6 +8,10 @@ Events can be deleted in two ways
 Deleting the event message will instantly delete the event. If the `Edit`
 button is clicked, a confirmation prompt will be sent via a direct message.
 
+!!! note
+    When an event is deleted that Apollo has created a thread for, the thread
+    is automatically archived.
+
 ## Recurring events
 
 If an event message for a recurring event is deleted, the underlying series is
