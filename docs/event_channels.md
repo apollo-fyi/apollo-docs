@@ -62,3 +62,7 @@ channel when a new event is posted or deleted. The goal of this feature is to
 maintain an event channel as a place for events only, free of distraction.
 
 This can be disabled with the `!server purge off` command.
+
+!!! note
+    When a message with a thread (that isn't an event message) is deleted as
+    part of a purge, the thread remains intact.
