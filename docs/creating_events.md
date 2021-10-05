@@ -8,3 +8,5 @@ Events are created with the `!event` command.
 
 By default anyone can create events, but this can be restricted to users with a
 certain role with the `!server role event` command.
+
+This is the line I want to add.
