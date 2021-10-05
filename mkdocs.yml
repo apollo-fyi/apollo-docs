@@ -2,6 +2,7 @@ site_name: Apollo Documentation
 site_url: https://docs.apollo.fyi
 repo_url: https://github.com/apollo-fyi/apollo-docs
 repo_name: apollo-fyi/apollo-docs
+edit_uri: edit/main/docs/
 site_description: Documentation and guides for the Apollo Discord bot, the best calendar and event bot on Discord.
 theme:
   name: material
