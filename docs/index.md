@@ -1,5 +1,7 @@
 # Home
 
+![Apollo logo](/assets/logo.png){ : .center width=250 }
+
 The official documentation page for the [Apollo Discord bot](https://apollo.fyi).
 
 If you aren't able to find the answers you're looking for here, please get in
