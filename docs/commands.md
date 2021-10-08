@@ -31,3 +31,4 @@ Information on how to use a command can also be found via the `!help` command.
 | `!server role delete`       | Configure which role is allowed to delete events |
 | `!server role channel`      | Configure which role is allowed to create event channels |
 | `!server role signup_options` | Configure which role is allowed to manage signup options|
+| `!server auto_join_threads` | Configure if new attendees are added to event threads |
