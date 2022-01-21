@@ -43,6 +43,6 @@ You can restrict event creation to a particular role using either of the followi
 
 ## Why are messages being deleted from my event channel?
 
-Apollo deletes all messages not from Apollo that are not pinned when a new event is created in an attempt to keep the channel clear of non event messages. This behaviour can be disabled with the `!server purge off` command.
+By default, when a new event is created in an event channel, Apollo deletes all messages in the channel that are not from Apollo or that are not pinned. This is in an attempt to keep the channel clear of non-event messages. This behaviour can be disabled with the `!server purge off` command.
 
 ---
