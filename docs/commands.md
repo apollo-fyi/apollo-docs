@@ -9,6 +9,11 @@ Information on how to use a command can also be found via the `!help` command.
 | `!event`                    | [Create a new event](./creating_events.md) |
 | `!edit`                     | [Modify an event](./modifying_events.md) |
 | `!channel`                  | [Create an event channel](./event_channels.md#create-an-event-channel) |
+| `/google auto_sync set`     | [Set a Google Calendar to automatically sync events to](./google_calendar.md#automatically-sync-events) |
+| `/google auto_sync disable` | [Disable Google Calendar auto sync](./google_calendar.md#automatically-sync-events) |
+| `/google authorize`         | [Authorize a new Google Calendar connection](./google_calendar.md#connect-a-calendar) |
+| `/google revoke`            | [Revoke access to a Google Calendar](./google_calendar.md#disconnect-a-calendar) |
+| `/google sync`              | [Sync an event to a Google Calendar](./google_calendar.md#syncing-events) |
 | `!sort [order]`             | [Sort events by chronological order](./event_channels.md#sort-an-event-channel) |
 | `!prefix <new_prefix>`      | Update the command prefix |
 | `!reminders`                | Configure personal reminder settings |

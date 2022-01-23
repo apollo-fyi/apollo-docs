@@ -49,3 +49,4 @@ nav:
     - Event channels: 'event_channels.md'
     - Reminders: 'reminders.md'
     - Attendee roles: 'attendee_roles.md'
+    - Google Calendar: 'google_calendar.md'
