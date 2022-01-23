@@ -32,3 +32,4 @@ Information on how to use a command can also be found via the `!help` command.
 | `!server role channel`      | Configure which role is allowed to create event channels |
 | `!server role signup_options` | Configure which role is allowed to manage signup options|
 | `!server auto_join_threads` | Configure if new attendees are added to event threads |
+| `/settings show_attendees`  | Configure if attendee names are displayed on events |
