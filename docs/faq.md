@@ -46,3 +46,30 @@ You can restrict event creation to a particular role using either of the followi
 By default, when a new event is created in an event channel, Apollo deletes all messages in the channel that are not from Apollo or that are not pinned. This is in an attempt to keep the channel clear of non-event messages. This behaviour can be disabled with the `!server purge off` command.
 
 ---
+
+## What Discord Permissions does Apollo need to work?
+
+Apollo needs the following Channel-level permissions to function properly:
+* View Channel
+* Send Messages
+* Send Messages in Threads (if using Threads, which are on by default)
+* Create Public Threads (same as above)
+* Embed Links
+* Use External Emoji
+* Mention `@everyone`, `@here`, and All Roles (if using the role mention feature and the role is not otherwise mentionable)
+* Manage Messages
+* Manage Threads
+* Read Message History
+* Use Application Commands (new and required for slash commands)
+
+Apollo needs the following Category-level permissions to be able to create an event channel.
+* See Channels
+* Manage Channels (if you want to create event channels)
+
+For users to interact with Apollo, they need the following permissions: 
+* View Channel
+* Send Messages (to use text commands)
+* Read Message History
+* Use External Emojis
+
+--
