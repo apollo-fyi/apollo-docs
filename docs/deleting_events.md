@@ -22,7 +22,7 @@ ask if you'd like to delete the current event only, or if you'd like to delete
 the current event and prevent all future occurrences.
 
 To delete a recurring event without also deleting an individual event, use the
-`!edit` command and select the option to modify a recurring series. After
+`/edit` command and select the option to modify a recurring series. After
 selecting the series you'd like to delete, select the option to delete the
 series.
 
@@ -39,5 +39,5 @@ message indicating that they are missing permissions.
 Users with the `Manage Server` permission can delete any event.
 
 To allow additional users to delete events, you can assign an event deletion
-role with `!server role delete <role>`. This will allow any user with the given
+role with `/settings role delete`. This will allow any user with the given
 role to delete events.

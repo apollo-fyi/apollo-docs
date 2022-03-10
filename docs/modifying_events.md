@@ -5,12 +5,12 @@ creating an event or the event details have changed.
 
 Events can be modified in two ways:
 
-- With the `!edit` command
+- With the `/edit` command
 - By clicking the `Edit` button on an event
 
 !!! info
     To modify a recurring series without affecting an already posted event, the
-    `!edit` command must be used.
+    `/edit` command must be used.
 
 Users can edit events that they've created. Users with the `Manage Server`
 Discord permission are able to edit all events on the server.

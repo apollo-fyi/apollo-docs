@@ -6,7 +6,7 @@ purged when a new event is posted.
 
 ## Create an event channel
 
-Event channels are created with the `!channel` command.
+Event channels are created with the `/channel` command.
 
 !!! warning
     Apollo cannot currently take over an existing channel as an event channel; a
@@ -16,7 +16,7 @@ The user issuing the command must have the `Manage Server` permission or have
 the Discord role designated to allow channel creation.
 
 To allow additional users to create event channels, you can assign an event
-channel role with `!server role channel <role>`. This will allow any user with
+channel role with `/settings role channel`. This will allow any user with
 the given role to create event channels.
 
 ## Required permissions
@@ -33,21 +33,21 @@ To create an event channel, Apollo must have the follow permissions.
 
 ## Add events
 
-When issuing the `!event` command outside of an event channel, the first prompt
+When issuing the `/event` command outside of an event channel, the first prompt
 will ask if you'd like to post the event in the current channel, another
 channel, or in one of your event channels. The option to select an event channel
 is only present if one or more event channels are configured.
 
-If the `!event` command is issued from within an event channel, the initial
+If the `/event` command is issued from within an event channel, the initial
 prompt to select a channel is skipped and the event will be created in the same
 channel.
 
 ## Sort an event channel
 
-Event channels can sort events by chronological order with the `!sort` command.
-To reverse the sort order, use `!sort desc`.
+Event channels can sort events by chronological order with the `/sort` command.
+To reverse the sort order, use `/sort descending`.
 
-Users must have the `Manage Server` permission to use the `!sort` command and
+Users must have the `Manage Server` permission to use the `/sort` command and
 have voted for Apollo on [top.gg](https://top.gg/bot/475744554910351370/vote) in
 the last twelve hours. The voting requirement is bypassed if there is an active
 Premium membership.
@@ -61,7 +61,7 @@ By default non event messages (that aren't pinned) are purged from an event
 channel when a new event is posted or deleted. The goal of this feature is to
 maintain an event channel as a place for events only, free of distraction.
 
-This can be disabled with the `!server purge off` command.
+This can be disabled with the `/settings purge off` command.
 
 !!! note
     When a message with a thread (that isn't an event message) is deleted as
