@@ -19,6 +19,7 @@ For more information on a command, click the link in the description.
 | `/reminders`                    | Configure personal reminder settings |
 | `/settings 24_hour_time`        | Configure 24 hour time display |
 | `/settings auto_delete`         | Configure automatic event deletion |
+| `/settings auto_delete_interval`| Configure when automatic event deletion occurs |
 | `/settings auto_join_threads`   | Configure if new attendees are added to event threads |
 | `/settings event_threads`       | Configure if events are posted with a thread |
 | `/settings localize_time`       | Configure if users see event times in their local time zone |

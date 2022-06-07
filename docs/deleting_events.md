@@ -41,3 +41,11 @@ Users with the `Manage Server` permission can delete any event.
 To allow additional users to delete events, you can assign an event deletion
 role with `/settings role delete`. This will allow any user with the given
 role to delete events.
+
+## Automatic deletion
+
+If desired, Apollo can be configured to automatically delete past events with
+the `/settings auto_delete` command.
+
+By default events will be auto deleted two hours after they end, but this
+interval can be configured with the `/settings auto_delete_interval` command.
