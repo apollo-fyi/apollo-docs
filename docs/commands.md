@@ -23,7 +23,7 @@ For more information on a command, click the link in the description.
 | `/settings event_threads`       | Configure if events are posted with a thread |
 | `/settings localize_time`       | Configure if users see event times in their local time zone |
 | `/settings purge`               | Configure if messages are purged from event channels |
-| `/settings reminder_interval`   | Configure when event reminders are delivered |
+| `/settings reminder_interval`   | pionfigure when event reminders are delivered |
 | `/settings role channel`        | Configure which role is allowed to create event channels |
 | `/settings role delete`         | Configure which role is allowed to delete events |
 | `/settings role event`          | Configure which role is allowed to create events |
