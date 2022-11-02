@@ -9,3 +9,5 @@ touch on our [Discord server](https://discord.com/invite/dMnZt6P).
 
 
 <iframe src="https://discord.com/widget?id=478340725755609088&theme=dark" width="800" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+Teamtreffen
+19:00 Uhr
