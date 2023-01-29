@@ -48,6 +48,11 @@ creation, select the option to customization signup options. From here, you'll
 be able to add, remove, and modify signup options, including signup option
 level restrictions.
 
+<figure markdown>
+  ![Set signup level restrictions](assets/restrictions/option_level.gif){ width="800" style="border-radius:5px" }
+  <figcaption>Require "Accepted" users to have the Premium role</figcaption>
+</figure>
+
 ## Signup cutoff
 
 A signup cutoff can be put in place, where after a specified time, users will
