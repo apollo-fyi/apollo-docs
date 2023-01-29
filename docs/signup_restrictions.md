@@ -44,7 +44,7 @@ required to signup for the event.
 ### Set signup option level restrictions
 
 Restrictions can be set individually for each signup option. During event
-creation, select the option to customization signup options. From here, you'll
+creation, select the option to customize signup options. From here, you'll
 be able to add, remove, and modify signup options, including signup option
 level restrictions.
 
