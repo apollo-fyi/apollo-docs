@@ -39,7 +39,9 @@ required to signup for the event.
 ### Set signup option level restrictions
 
 Restrictions can be set individually for each signup option. During event
-creation,
+creation, select the option to customization signup options. From here, you'll
+be able to add, remove, and modify signup options, including signup option
+level restrictions.
 
 ## Signup cutoff
 
@@ -48,8 +50,8 @@ no longer be able to add, remove, or otherwise modify their response.
 
 Signups can be set to cutoff:
 
-- When the event starts; or
-- A period of time before the event starts; or
+- When the event starts; _or_
+- A period of time before the event starts; _or_
 - A period of time after the event starts
 
 If a user attempts to signup for an event that is closed, they'll receive a
@@ -57,7 +59,7 @@ message from Apollo indicating that signups are closed. The message will link
 to the event organizer's profile so the user knows who to contact about any issues.
 
 <figure markdown>
-  ![Signups closed](assets/restrictions/notify.png){ width="800" style="border-radius:5px" }
+  ![Signups closed](assets/restrictions/notify.png){ width="600" style="border-radius:5px" }
   <figcaption>A notification that signups are closed</figcaption>
 </figure>
 
@@ -65,3 +67,8 @@ to the event organizer's profile so the user knows who to contact about any issu
 
 To set a time for signups to cutoff, select the option to set a time for
 signups to close at the last step of event creation.
+
+<figure markdown>
+  ![Set a cutoff time](assets/restrictions/set_cutoff.gif){ width="800" style="border-radius:5px" }
+  <figcaption>Set signups to close 2 hours before the event starts</figcaption>
+</figure>
