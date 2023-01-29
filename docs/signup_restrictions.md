@@ -36,6 +36,11 @@ At the last step of event creation, select the option to restrict signups to
 certain roles. Follow the prompts, and enter the names of the Discord roles
 required to signup for the event.
 
+<figure markdown>
+  ![Set event level restrictions](assets/restrictions/event_level.gif){ width="800" style="border-radius:5px" }
+  <figcaption>Require attendees to have either the Premium or Staff role</figcaption>
+</figure>
+
 ### Set signup option level restrictions
 
 Restrictions can be set individually for each signup option. During event
