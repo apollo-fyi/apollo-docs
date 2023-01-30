@@ -27,7 +27,7 @@ restrictions apply only to the corresponding signup option.
 !!! Info
     If both event and signup option restrictions are in place, the user must
     pass both checks. In other words, the user needs to have _one of_ the
-    even level restricted roles, and _one of_ the signup option level
+    event level restricted roles, and _one of_ the signup option level
     restricted roles.
 
 ### Set event level restrictions
