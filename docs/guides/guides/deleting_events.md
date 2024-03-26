@@ -1,3 +1,9 @@
+---
+description: Learn how to delete Apollo events.
+slug: /deleting_events
+sidebar_position: 2
+---
+
 # Deleting events
 
 Events can be deleted in two ways
@@ -8,9 +14,10 @@ Events can be deleted in two ways
 Deleting the event message will instantly delete the event. If the `Edit`
 button is clicked, a confirmation prompt will be sent via a direct message.
 
-!!! note
-    When an event is deleted that Apollo has created a thread for, the thread
-    is automatically archived.
+:::note
+When an event is deleted that Apollo has created a thread for, the thread
+is automatically archived.
+:::
 
 ## Recurring events
 
@@ -26,9 +33,10 @@ To delete a recurring event without also deleting an individual event, use the
 selecting the series you'd like to delete, select the option to delete the
 series.
 
-!!! info
-    Deleting a recurring series does not delete associated events; they become
-    regular one time events.
+:::info
+Deleting a recurring series does not delete associated events; they become
+regular one time events.
+:::
 
 ## Controlling access
 

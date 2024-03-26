@@ -1,10 +1,17 @@
+---
+description: The fundamentals for creating events with Apollo.
+slug: /creating_events
+sidebar_position: 1
+---
+
 # Creating events
 
 Events are created with the `/event` command.
 
-!!! info
-    Event creation occurs in a direct message, so you must be able to receive DMs
-    from Apollo.
+:::info
+Event creation occurs in a **direct message**, so you must be able to receive direct
+messages from Apollo.
+:::
 
 Apollo will then walk you through a guided event creation process, asking you to
 provide the following:

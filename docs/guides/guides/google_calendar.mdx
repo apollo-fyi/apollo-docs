@@ -1,3 +1,11 @@
+---
+description: Connect Apollo to Google Calendar and sync events.
+slug: /google_calendar
+sidebar_position: 8
+---
+
+import Figure from '../figure';
+
 # Google Calendar
 
 Apollo's Google Calendar integration allows you to sync events to a
@@ -8,10 +16,7 @@ Google Calendar of your choice.
 Any user can connect a Google Calendar to Apollo with the `/google authorize`
 command.
 
-<figure markdown>
-  ![Authorize with Google](assets/google/authorize.png){ width="600" style="border-radius:5px" }
-  <figcaption>Authorize a new Google Calendar</figcaption>
-</figure>
+<Figure caption="Authorize with Google" src="/img/google/authorize.png" />
 
 After issuing the command, click the **Sign in with Google** button and follow
 the prompts in your browser.
@@ -30,14 +35,12 @@ following information:
 - The event you'd like to sync
 - The Google Calendar to sync the event to
 
-<figure markdown>
-  ![Authorize with Google](assets/google/sync.gif){ width="800" style="border-radius:5px" }
-  <figcaption>Sync an event to Google Calendar</figcaption>
-</figure>
+<Figure caption="Sync an event to Google Calendar" src="/img/google/sync.gif" />
 
-!!! Tip
-    If you don't see the event you'd like to sync, start typing the name of it
-    to filter down the list.
+:::tip
+If you don't see the event you'd like to sync, start typing the name of it
+to filter down the list.
+:::
 
 Once synced, Apollo will provide a link to the event in your Google Calendar.
 
@@ -50,9 +53,10 @@ Calendar.
 Admins can set an auto sync calendar with `/google auto_sync set`, and can
 disable it with `/google auto_sync disable`.
 
-!!! Info
-    If the user who authorized the auto sync calendar revokes access, auto
-    sync will be disabled.
+::info
+If the user who authorized the auto sync calendar revokes access, auto
+sync will be disabled.
+:::
 
 ## Disconnect a calendar
 

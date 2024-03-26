@@ -1,11 +1,18 @@
+---
+description: Notifications about upcoming events.
+slug: /reminders
+sidebar_position: 5
+---
+
 # Reminders
 
 By default, Apollo will send a reminder to event attendees **15** minutes prior to
 the scheduled start time of the event.
 
-!!! info
-    The timing of reminders can be modified with the `/settings reminder_interval`
-    command, which applies to all events on the server.
+:::note
+The timing of reminders can be modified with the `/settings reminder_interval`
+command, which applies to all events on the server.
+:::
 
 When it's time to send a reminder, Apollo will create a public thread on the
 event and send a reminder in the thread that mentions relevent attendees. If a
