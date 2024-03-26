@@ -1,18 +1,6 @@
 # Apollo documentation
 
-Documentation and guide site for the Apollo Discord bot built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
-
-## Local development
-
-First, you'll need to install [pipenv](https://github.com/pypa/pipenv).
-
-Then install dependencies and start the dev server:
-```
-pipenv install
-pipenv run mkdocs serve
-```
-
-The site should now be running at http://localhost:8000/
+Documentation and guide site for the Apollo Discord bot.
 
 ## Contributing
 
