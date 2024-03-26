@@ -1,4 +1,12 @@
-# Signup Restrictions
+---
+description: Restrict who can signup for specific events.
+slug: /signup_restrictions
+sidebar_position: 7
+---
+
+import Figure from '../figure';
+
+# Signup restrictions
 
 With an active [Premium](https://apollo.fyi/premium) subscription, Apollo can
 be configured to restrict event signups. Signup restrictions allow you to
@@ -10,9 +18,10 @@ There are two types of restrictions:
 - Discord roles permitted to signup
 - Time based signup cutoff times
 
-!!! Info
-    Regardless of what event restrictions are in place, the event organizer
-    (or an admin) can always manually modify user signups.
+:::info
+Regardless of what event restrictions are in place, the event organizer
+(or an admin) can always manually modify user signups.
+:::
 
 ## Discord role restrictions
 
@@ -24,11 +33,12 @@ Role restrictions can exist at the event level and at the signup option level.
 Event level restrictions apply to all signup options, while signup option level
 restrictions apply only to the corresponding signup option.
 
-!!! Info
-    If both event and signup option restrictions are in place, the user must
-    pass both checks. In other words, the user needs to have _one of_ the
-    event level restricted roles, and _one of_ the signup option level
-    restricted roles.
+:::info
+If both event and signup option restrictions are in place, the user must
+pass both checks. In other words, the user needs to have _one of_ the
+event level restricted roles, and _one of_ the signup option level
+restricted roles.
+:::
 
 ### Set event level restrictions
 
@@ -36,10 +46,7 @@ At the last step of event creation, select the option to restrict signups to
 certain roles. Follow the prompts, and enter the names of the Discord roles
 required to signup for the event.
 
-<figure markdown>
-  ![Set event level restrictions](assets/restrictions/event_level.gif){ width="800" style="border-radius:5px" }
-  <figcaption>Require attendees to have either the Premium or Staff role</figcaption>
-</figure>
+<Figure caption="Require attendees to have either the Premium or Staff role" src="/img/restrictions/event_level.gif" />
 
 ### Set signup option level restrictions
 
@@ -48,10 +55,7 @@ creation, select the option to customize signup options. From here, you'll
 be able to add, remove, and modify signup options, including signup option
 level restrictions.
 
-<figure markdown>
-  ![Set signup level restrictions](assets/restrictions/option_level.gif){ width="800" style="border-radius:5px" }
-  <figcaption>Require "Accepted" users to have the Premium role</figcaption>
-</figure>
+<Figure caption='Require "Accepted" users to have the Premium role' src="/img/restrictions/option_level.gif" />
 
 ## Signup cutoff
 
@@ -68,17 +72,11 @@ If a user attempts to signup for an event that is closed, they'll receive a
 message from Apollo indicating that signups are closed. The message will link
 to the event organizer's profile so the user knows who to contact about any issues.
 
-<figure markdown>
-  ![Signups closed](assets/restrictions/notify.png){ width="600" style="border-radius:5px" }
-  <figcaption>A notification that signups are closed</figcaption>
-</figure>
+<Figure caption="A notification that signups are closed" src="/img/restrictions/notify.png" />
 
 ### Set a cutoff time
 
 To set a time for signups to cutoff, select the option to set a time for
 signups to close at the last step of event creation.
 
-<figure markdown>
-  ![Set a cutoff time](assets/restrictions/set_cutoff.gif){ width="800" style="border-radius:5px" }
-  <figcaption>Set signups to close 2 hours before the event starts</figcaption>
-</figure>
+<Figure caption="Set signups to close 2 hours before the event starts" src="/img/restrictions/set_cutoff.gif" />

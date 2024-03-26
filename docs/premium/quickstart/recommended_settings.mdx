@@ -1,0 +1,58 @@
+---
+description: Recommended settings to get the most out of Apollo Premium.
+slug: /premium/recommended_settings
+---
+
+import Figure from './../../figure';
+
+# Recommended settings
+
+To get the most out of your membership, we recommend enabling a few settings
+once you've activated Premium.
+
+You can use the **`/settings overview`** command to view your current settings.
+
+## Temporary attendee roles
+
+Apollo can be configured to assign a temporary role to attendees,
+making it possible to message attendees with a single mention.
+
+<Figure caption="An event with a temporary attendee role" src="/img/premium/quickstart/temp_role.png" />
+
+Apollo will also use temporary attendee roles for event reminders, removing the need
+to mention every attendee individually.
+
+<Figure caption="An event reminder using a temporary attendee role" src="/img/premium/quickstart/temp_role_reminder.png" />
+
+Temporary attendee roles can be enabled with the **`/settings temp_roles`** command.
+
+:::info
+As temporary attendee roles aren't removed until the event is deleted, we also
+recommend enabling **`/settings auto_delete`** to clean up old events.
+:::
+
+## Automatic thread joining
+
+When automatic thread joining is enabled, Apollo will **add** and **remove** attendees from
+the thread associated with the event. This is a great way to provide a text
+channel to discuss upcoming events with other attendees.
+
+<Figure caption="Automatic thread management for attendees" src="/img/premium/quickstart/auto_join_threads.png" />
+
+Automatic thread joining can be enabled with the **`/settings auto_join_threads`**
+command.
+
+We also recommend enabling **`/settings event_threads`** to ensure events
+are always created with a thread, as Apollo won't attempt to add an attendee to
+a non-existent event thread.
+
+### Private threads
+
+Private threads are more of a personal preference, but automatic thread joining
+pairs excellently with private threads.
+
+Apollo ensures that only legitmate event attendees are added to the private
+thread; great if you're planning anything sensitive.
+
+Private event threads can be enabled with the **`/settings private_threads`**
+command.

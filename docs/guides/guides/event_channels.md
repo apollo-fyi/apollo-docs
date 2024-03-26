@@ -1,3 +1,9 @@
+---
+description: Keep it clean by organizing events with event channels.
+slug: /event_channels
+sidebar_position: 4
+---
+
 # Event channels
 
 Event channels are regular Discord text channels that Apollo will take over,
@@ -8,9 +14,10 @@ purged when a new event is posted.
 
 Event channels are created with the `/channel` command.
 
-!!! warning
-    Apollo cannot currently take over an existing channel as an event channel; a
-    new channel must be created.
+:::warning
+Apollo cannot currently take over an existing channel as an event channel; a
+new channel must be created.
+:::
 
 The user issuing the command must have the `Manage Server` permission or have
 the Discord role designated to allow channel creation.
@@ -27,9 +34,10 @@ To create an event channel, Apollo must have the follow permissions.
 - Read Message History
 - Manage Channels
 
-!!! info
-    If you run into permission issues, be sure to check your category permission
-    overrides for Manage Channels.
+:::info
+If you run into permission issues, be sure to check your category permission
+overrides for Manage Channels.
+:::
 
 ## Add events
 
@@ -63,6 +71,7 @@ maintain an event channel as a place for events only, free of distraction.
 
 This can be disabled with the `/settings purge off` command.
 
-!!! note
-    When a message with a thread (that isn't an event message) is deleted as
-    part of a purge, the thread remains intact.
+:::note
+When a message with a thread (that isn't an event message) is deleted as
+part of a purge, the thread remains intact.
+:::
