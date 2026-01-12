@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/asal/Development/apollo-docs log --oneline -15)",
+      "Bash(git -C /home/asal/Development/apollo-docs remote:*)",
+      "Bash(git -C /home/asal/Development/apollo-docs show a520adb --stat)"
+    ]
+  }
+}
