@@ -12,12 +12,9 @@ purged when a new event is posted.
 
 ## Create an event channel
 
-Event channels are created with the `/channel` command.
-
-:::warning
-Apollo cannot currently take over an existing channel as an event channel; a
-new channel must be created.
-:::
+Event channels are created with the `/channel new` command. By default, this
+creates a new channel. To convert an existing channel to an event channel,
+use the optional `channel` parameter to select the channel you want to convert.
 
 The user issuing the command must have the `Manage Server` permission or have
 the Discord role designated to allow channel creation.
