@@ -6,6 +6,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Documentation site for the Apollo Discord bot, built with Docusaurus 3.1.1. Production URL: https://docs.apollo.fyi
 
+## Apollo Bot Codebase
+
+The Apollo bot source code is in the sibling directory `../apollo`. Key locations for writing docs:
+
+- `apollo/cogs/` - Discord slash commands organized by feature (event_creation, rsvp, settings, google, premium, etc.)
+- `apollo/shared/services/` - Business logic (CreateEvent, AddAttendee, etc.)
+- `apollo/shared/entities/` - Data models (Event, User, Guild, Template)
+- `locales/` - Translation files showing all user-facing strings
+
 ## Commands
 
 ```bash
