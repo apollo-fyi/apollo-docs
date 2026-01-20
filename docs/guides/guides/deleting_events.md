@@ -19,6 +19,13 @@ When an event is deleted that Apollo has created a thread for, the thread
 is automatically archived.
 :::
 
+## Archiving events
+
+Often we want to remove an event from Discord, but retain the ability to
+look at that event later. Retaining event history is made possible by
+archiving them; these events are removed from Discord, but are still
+available on the [dashboard](https://app.apollo.fyi).
+
 ## Recurring events
 
 If an event message for a recurring event is deleted, the underlying series is
@@ -52,8 +59,8 @@ role to delete events.
 
 ## Automatic deletion
 
-If desired, Apollo can be configured to automatically delete past events with
-the `/settings auto_delete` command.
+If desired, Apollo can be configured to automatically archive past events with
+the `/settings auto_archive` command.
 
-By default events will be auto deleted two hours after they end, but this
-interval can be configured with the `/settings auto_delete_interval` command.
+By default events will be auto archived two hours after they end, but this
+interval can be configured with the `/settings auto_archive_interval` command.
