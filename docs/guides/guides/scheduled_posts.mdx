@@ -1,0 +1,77 @@
+---
+description: Schedule events to post automatically at a future time.
+slug: /scheduled_posts
+sidebar_position: 9
+---
+
+import Figure from '../figure';
+
+# Scheduled posts
+
+By default, an event is posted to Discord as soon as it's published. With a
+scheduled post, you can choose a future time for Apollo to post the event,
+which is useful when you want to plan events in advance but only have them
+appear closer to the date.
+
+<Figure src="/img/scheduled_posts/header.png" caption="An event with a scheduled post pending" />
+
+Customizing the post time requires an active [Premium](https://apollo.fyi/premium)
+membership.
+
+## Schedule a post from the dashboard
+
+When creating or editing an event on the [dashboard](https://app.apollo.fyi),
+the connection card includes the post time alongside the channel selection.
+
+By default this reads **Posts when the event is published**. Click the text to
+choose a custom post time.
+
+<Figure src="/img/scheduled_posts/connection_default.png" caption="The default post time on a new connection" />
+
+<Figure src="/img/scheduled_posts/connection_picker.png" caption="Picking a custom post time" />
+
+## Edit a scheduled post
+
+The post time can be changed after the event has been published, as long as
+the event hasn't been posted yet.
+
+On the event details page, the connection card displays the scheduled post
+time (for example, **Posts Monday June 6th at 8:00 AM**). Click the text to
+change it.
+
+<Figure src="/img/scheduled_posts/edit_post_time.png" caption="The post time is editable on a published event" />
+
+:::info
+Once an event has been posted to Discord, the scheduled post time can no
+longer be changed.
+:::
+
+## Schedule a post from Discord
+
+When creating an event with the `/event` command, the final step includes a
+**Schedule when the event is posted** option. Selecting it opens a prompt that
+accepts the post time in natural language (for example, *next Friday at 9am*
+or *June 6 at 8:00*).
+
+<Figure src="/img/scheduled_posts/discord_schedule_step.png" caption="The schedule step in the /event command" width="400px" />
+
+After the event is created, Apollo will send a confirmation message that
+includes the scheduled post time and a link to the event on the dashboard,
+so you can view or edit it before it's posted.
+
+<Figure src="/img/scheduled_posts/discord_confirmation.png" caption="Confirmation with a link to the dashboard" />
+
+## The scheduled posts page
+
+The [Scheduled posts](https://app.apollo.fyi) page on the dashboard lists
+every event with a scheduled post that hasn't been sent yet. Events are
+ordered by post time, with the next post to go out at the top.
+
+<Figure src="/img/scheduled_posts/dashboard_list.png" caption="The scheduled posts page on the dashboard" />
+
+## When a post fails
+
+If Apollo can't post a scheduled event due to a Discord issue or another
+external factor, it will retry up to three times. If all attempts fail,
+Apollo will send you a Discord message to let you know, and you can post the
+event manually from the event's page.
